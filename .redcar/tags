@@ -1,7 +1,8 @@
-1318680396
+1318680523
 Application	/home/kviny/projects/ticketee/config/application.rb	  class Application 
 ApplicationController	/home/kviny/projects/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/kviny/projects/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
+BrowsingTest	/home/kviny/projects/ticketee/test/performance/browsing_test.rb	class BrowsingTest 
 CreateProjects	/home/kviny/projects/ticketee/db/migrate/20111011213415_create_projects.rb	class CreateProjects 
 HtmlSelectorsHelpers	/home/kviny/projects/ticketee/features/support/selectors.rb	module HtmlSelectorsHelpers
 NavigationHelpers	/home/kviny/projects/ticketee/features/support/paths.rb	module NavigationHelpers
@@ -11,6 +12,7 @@ ProjectsController	/home/kviny/projects/ticketee/app/controllers/projects_contro
 ProjectsControllerTest	/home/kviny/projects/ticketee/test/functional/projects_controller_test.rb	class ProjectsControllerTest 
 ProjectsHelper	/home/kviny/projects/ticketee/app/helpers/projects_helper.rb	module ProjectsHelper
 ProjectsHelperTest	/home/kviny/projects/ticketee/test/unit/helpers/projects_helper_test.rb	class ProjectsHelperTest 
+TestCase	/home/kviny/projects/ticketee/test/test_helper.rb	class ActiveSupport::TestCase
 Ticketee	/home/kviny/projects/ticketee/config/application.rb	module Ticketee
 WithinHelpers	/home/kviny/projects/ticketee/features/step_definitions/web_steps.rb	module WithinHelpers
 change	/home/kviny/projects/ticketee/db/migrate/20111011213415_create_projects.rb	  def change
@@ -20,4 +22,5 @@ new	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def n
 path_to	/home/kviny/projects/ticketee/features/support/paths.rb	  def path_to(page_name)
 selector_for	/home/kviny/projects/ticketee/features/support/selectors.rb	  def selector_for(locator)
 show	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def show
+test_homepage	/home/kviny/projects/ticketee/test/performance/browsing_test.rb	  def test_homepage
 with_scope	/home/kviny/projects/ticketee/features/step_definitions/web_steps.rb	  def with_scope(locator)
