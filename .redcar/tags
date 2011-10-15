@@ -1,4 +1,4 @@
-1318680523
+1318689495
 Application	/home/kviny/projects/ticketee/config/application.rb	  class Application 
 ApplicationController	/home/kviny/projects/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/kviny/projects/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
@@ -23,4 +23,5 @@ path_to	/home/kviny/projects/ticketee/features/support/paths.rb	  def path_to(pa
 selector_for	/home/kviny/projects/ticketee/features/support/selectors.rb	  def selector_for(locator)
 show	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def show
 test_homepage	/home/kviny/projects/ticketee/test/performance/browsing_test.rb	  def test_homepage
+title	/home/kviny/projects/ticketee/app/helpers/application_helper.rb	  def title(*parts)
 with_scope	/home/kviny/projects/ticketee/features/step_definitions/web_steps.rb	  def with_scope(locator)
