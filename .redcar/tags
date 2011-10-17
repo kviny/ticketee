@@ -1,4 +1,4 @@
-1318882525
+1318884094
 Application	/home/kviny/projects/ticketee/config/application.rb	  class Application 
 ApplicationController	/home/kviny/projects/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/kviny/projects/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
@@ -17,6 +17,7 @@ Ticketee	/home/kviny/projects/ticketee/config/application.rb	module Ticketee
 WithinHelpers	/home/kviny/projects/ticketee/features/step_definitions/web_steps.rb	module WithinHelpers
 change	/home/kviny/projects/ticketee/db/migrate/20111011213415_create_projects.rb	  def change
 create	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def create
+edit	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def edit
 index	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def index
 new	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def new
 path_to	/home/kviny/projects/ticketee/features/support/paths.rb	  def path_to(page_name)
@@ -24,4 +25,5 @@ selector_for	/home/kviny/projects/ticketee/features/support/selectors.rb	  def s
 show	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def show
 test_homepage	/home/kviny/projects/ticketee/test/performance/browsing_test.rb	  def test_homepage
 title	/home/kviny/projects/ticketee/app/helpers/application_helper.rb	  def title(*parts)
+update	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def update
 with_scope	/home/kviny/projects/ticketee/features/step_definitions/web_steps.rb	  def with_scope(locator)
