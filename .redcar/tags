@@ -1,4 +1,4 @@
-1318884094
+1318884789
 Application	/home/kviny/projects/ticketee/config/application.rb	  class Application 
 ApplicationController	/home/kviny/projects/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/kviny/projects/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
@@ -17,6 +17,7 @@ Ticketee	/home/kviny/projects/ticketee/config/application.rb	module Ticketee
 WithinHelpers	/home/kviny/projects/ticketee/features/step_definitions/web_steps.rb	module WithinHelpers
 change	/home/kviny/projects/ticketee/db/migrate/20111011213415_create_projects.rb	  def change
 create	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def create
+destroy	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def destroy
 edit	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def edit
 index	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def index
 new	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def new
