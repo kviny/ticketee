@@ -1,4 +1,4 @@
-1318975928
+1319141451
 Application	/home/kviny/projects/ticketee/config/application.rb	  class Application 
 ApplicationController	/home/kviny/projects/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/kviny/projects/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
@@ -25,6 +25,7 @@ create	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  de
 create	/home/kviny/projects/ticketee/app/controllers/tickets_controller.rb	  def create
 destroy	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def destroy
 edit	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def edit
+edit	/home/kviny/projects/ticketee/app/controllers/tickets_controller.rb	  def edit
 find_project	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def find_project
 find_project	/home/kviny/projects/ticketee/app/controllers/tickets_controller.rb	    def find_project
 find_ticket	/home/kviny/projects/ticketee/app/controllers/tickets_controller.rb	    def find_ticket
@@ -38,4 +39,5 @@ show	/home/kviny/projects/ticketee/app/controllers/tickets_controller.rb	  def s
 test_homepage	/home/kviny/projects/ticketee/test/performance/browsing_test.rb	  def test_homepage
 title	/home/kviny/projects/ticketee/app/helpers/application_helper.rb	  def title(*parts)
 update	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def update
+update	/home/kviny/projects/ticketee/app/controllers/tickets_controller.rb	  def update
 with_scope	/home/kviny/projects/ticketee/features/step_definitions/web_steps.rb	  def with_scope(locator)
