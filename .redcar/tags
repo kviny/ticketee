@@ -1,10 +1,11 @@
-1319142281
+1320069741
 Application	/home/kviny/projects/ticketee/config/application.rb	  class Application 
 ApplicationController	/home/kviny/projects/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/kviny/projects/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
 BrowsingTest	/home/kviny/projects/ticketee/test/performance/browsing_test.rb	class BrowsingTest 
 CreateProjects	/home/kviny/projects/ticketee/db/migrate/20111011213415_create_projects.rb	class CreateProjects 
 CreateTickets	/home/kviny/projects/ticketee/db/migrate/20111018210403_create_tickets.rb	class CreateTickets 
+DeviseCreateUsers	/home/kviny/projects/ticketee/db/migrate/20111020210355_devise_create_users.rb	class DeviseCreateUsers 
 HtmlSelectorsHelpers	/home/kviny/projects/ticketee/features/support/selectors.rb	module HtmlSelectorsHelpers
 NavigationHelpers	/home/kviny/projects/ticketee/features/support/paths.rb	module NavigationHelpers
 Project	/home/kviny/projects/ticketee/app/models/project.rb	class Project 
@@ -18,6 +19,7 @@ Ticket	/home/kviny/projects/ticketee/app/models/ticket.rb	class Ticket
 Ticketee	/home/kviny/projects/ticketee/config/application.rb	module Ticketee
 TicketsController	/home/kviny/projects/ticketee/app/controllers/tickets_controller.rb	class TicketsController 
 TicketsHelper	/home/kviny/projects/ticketee/app/helpers/tickets_helper.rb	module TicketsHelper
+User	/home/kviny/projects/ticketee/app/models/user.rb	class User 
 WithinHelpers	/home/kviny/projects/ticketee/features/step_definitions/web_steps.rb	module WithinHelpers
 change	/home/kviny/projects/ticketee/db/migrate/20111011213415_create_projects.rb	  def change
 change	/home/kviny/projects/ticketee/db/migrate/20111018210403_create_tickets.rb	  def change
@@ -25,6 +27,7 @@ create	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  de
 create	/home/kviny/projects/ticketee/app/controllers/tickets_controller.rb	  def create
 destroy	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def destroy
 destroy	/home/kviny/projects/ticketee/app/controllers/tickets_controller.rb	  def destroy
+down	/home/kviny/projects/ticketee/db/migrate/20111020210355_devise_create_users.rb	  def self.down
 edit	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def edit
 edit	/home/kviny/projects/ticketee/app/controllers/tickets_controller.rb	  def edit
 find_project	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def find_project
@@ -39,6 +42,7 @@ show	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def 
 show	/home/kviny/projects/ticketee/app/controllers/tickets_controller.rb	  def show
 test_homepage	/home/kviny/projects/ticketee/test/performance/browsing_test.rb	  def test_homepage
 title	/home/kviny/projects/ticketee/app/helpers/application_helper.rb	  def title(*parts)
+up	/home/kviny/projects/ticketee/db/migrate/20111020210355_devise_create_users.rb	  def self.up
 update	/home/kviny/projects/ticketee/app/controllers/projects_controller.rb	  def update
 update	/home/kviny/projects/ticketee/app/controllers/tickets_controller.rb	  def update
 with_scope	/home/kviny/projects/ticketee/features/step_definitions/web_steps.rb	  def with_scope(locator)
